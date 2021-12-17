@@ -1,0 +1,26 @@
+h1 {
+	border: 2px #eee solid;
+	color: brown;
+	text-align: right;
+	padding: 10px;
+	background-color: green;
+}
+
+.green-color {
+    background-color: green;
+    border : red;
+}
+
+table {
+          border: 2px black solid;
+      }
+th {
+       border: 2px black solid;
+   }
+td{
+    border: 2px black solid;
+}
+
+body {
+    background-color: yellow
+}

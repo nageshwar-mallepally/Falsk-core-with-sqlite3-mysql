@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<body>
+<table border = 1>
+    <thead>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Purchase Date</td>
+    </thead>
+    {% for record in records %}
+    <tr>
+        <td>{{record[0]}}</td>
+        <td>{{record[1]}}</td>
+        <td>{{record[2]}}</td>
+        <td>{{record[3]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<div style="margin:3%"><a  href = "/mysql/enternew">New Laptop</a></div>
+
+</body>
+</html>
