@@ -14,10 +14,14 @@ flask run
 export FLASK_DEBUG=1
 flask run
 
-### To install spqlite3 and creating DB
-
+### To install spqlite3
 sudo apt install sqlite3
+
+### To create DB
 sqlite3 DatabaseName.db
+
+### To see databases
+.databases
 
 ### To my sql connector
 
